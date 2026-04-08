@@ -1,5 +1,7 @@
 node_modules
 dist
+.vercel
+npm-debug.log*
 .tmp-cv-docx
 .tmp-cv.zip
 .tmp-inspect-money

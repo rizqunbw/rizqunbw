@@ -65,10 +65,15 @@ export function HomePage() {
                 alt={profile.name}
               />
             </div>
-
-            <div className="hero-card__stamp">
-              <span>Ready to apply</span>
-              <strong>IT Support</strong>
+            <div className="hero-card__focus">
+              <span className="hero-card__focus-label">Career focus</span>
+              <strong className="hero-card__focus-title">
+                IT Support / Technical Operations
+              </strong>
+              <p className="hero-card__focus-copy">
+                Open to support-facing roles with troubleshooting, monitoring,
+                and hands-on system ownership.
+              </p>
             </div>
           </div>
 
